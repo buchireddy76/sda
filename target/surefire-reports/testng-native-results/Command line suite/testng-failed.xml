@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)" preserve-order="false">
+    <classes>
+      <class name="com.wwt.sda.TestNG_SDA">
+        <methods>
+          <include name="pageObjectsCreation"/>
+          <include name="SDA_CreateBOM_ReadyToOrder_OrderSubmitted_18" invocation-numbers="0"/>
+        </methods>
+      </class>
+      <class name="com.wwt.sda.TestNG_SDA_Orders">
+        <methods>
+          <include name="pageObjectsCreation"/>
+          <include name="SDA_CreateSupplementalBOM_26" invocation-numbers="0"/>
+        </methods>
+      </class>
+      <class name="com.wwt.sda.TestNG_Login">
+        <methods>
+          <include name="SDA_Login_03"/>
+          <include name="pageObjectsCreation"/>
+        </methods>
+      </class>
+      <class name="com.wwt.sda.TestNG_PDFDownloads">
+        <methods>
+          <include name="pageObjectsCreation"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="CNU326CND1" name="com.wwt.sda.TestNG_Login" tests="3" failures="1" timestamp="27 Oct 2013 04:36:00 GMT" time="69.669" errors="0">
+  <testcase name="SDA_Invalid_Login_01" time="0.904" classname="com.wwt.sda.TestNG_Login"/>
+  <testcase name="SDA_Invalid_Password_02" time="0.409" classname="com.wwt.sda.TestNG_Login"/>
+  <testcase name="SDA_Login_03" time="60.364" classname="com.wwt.sda.TestNG_Login">
+    <failure type="org.openqa.selenium.NoSuchElementException" message="Unable to locate element: {&amp;quot;method&amp;quot;:&amp;quot;xpath&amp;quot;,&amp;quot;selector&amp;quot;:&amp;quot;//*[@id=&amp;apos;user-menu&amp;apos;]//*[@class=&amp;apos;dropdown-toggle&amp;apos;]&amp;quot;}
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &amp;apos;2.24.1&amp;apos;, revision: &amp;apos;17205&amp;apos;, time: &amp;apos;2012-06-19 15:28:49&amp;apos;
+System info: os.name: &amp;apos;Windows 7&amp;apos;, os.arch: &amp;apos;x86&amp;apos;, os.version: &amp;apos;6.1&amp;apos;, java.version: &amp;apos;1.7.0_25&amp;apos;
+Driver info: driver.version: RemoteWebDriver
+Session ID: b090a693-6a22-438d-a456-b203d4255cf5">
+      <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='user-menu']//*[@class='dropdown-toggle']"}
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: RemoteWebDriver
+Session ID: b090a693-6a22-438d-a456-b203d4255cf5
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:327)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:343)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:234)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy6.getText(Unknown Source)
+	at com.wwt.sda.HomePage.verifyDisplyUserName(HomePage.java:100)
+	at com.wwt.sda.TestNG_Login.SDA_Login_03(TestNG_Login.java:78)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//*[@id='user-menu']//*[@class='dropdown-toggle']"}
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(file:///C:/Users/ramidib/AppData/Local/Temp/anonymous7613563956379236343webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:6556)
+	at <anonymous class>.<anonymous method>(file:///C:/Users/ramidib/AppData/Local/Temp/anonymous7613563956379236343webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:471)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

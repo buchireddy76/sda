@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="416072" started-at="2013-10-22T21:03:59Z" finished-at="2013-10-22T21:10:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="416072" started-at="2013-10-22T21:03:59Z" finished-at="2013-10-22T21:10:55Z">
+      <class name="com.wwt.sda.TestNG_SDA">
+        <test-method status="PASS" signature="pageObjectsCreation()[pri:0, instance:com.wwt.sda.TestNG_SDA@5fe425]" name="pageObjectsCreation" is-config="true" duration-ms="11497" started-at="2013-10-22T16:03:59Z" finished-at="2013-10-22T16:04:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pageObjectsCreation -->
+        <test-method status="PASS" signature="SDA_CreateBOM_ReadyToOrder_OrderSubmitted_18(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.wwt.sda.TestNG_SDA@5fe425]" name="SDA_CreateBOM_ReadyToOrder_OrderSubmitted_18" duration-ms="403472" started-at="2013-10-22T16:04:12Z" data-provider="getData" finished-at="2013-10-22T16:10:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ready To Order]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[13759797]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dayton EC / Ryder]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Galasso Trucking, Inc. - Maspeth, NY]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Testing]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Auto Release]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Submitted]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Order Submitted]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SDA_CreateBOM_ReadyToOrder_OrderSubmitted_18 -->
+      </class> <!-- com.wwt.sda.TestNG_SDA -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

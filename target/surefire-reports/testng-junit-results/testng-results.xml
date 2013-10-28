@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="40" started-at="2013-10-26T23:33:42Z" finished-at="2013-10-26T23:33:42Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="40" started-at="2013-10-26T23:33:42Z" finished-at="2013-10-26T23:33:42Z">
+      <class name="com.wwt.sda.AppTest">
+        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="2" started-at="2013-10-26T23:33:42Z" finished-at="2013-10-26T23:33:42Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

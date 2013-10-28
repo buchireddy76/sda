@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: com.wwt.sda.TestNG_Login
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 70.475 sec <<< FAILURE!
+SDA_Login_03(com.wwt.sda.TestNG_Login)  Time elapsed: 60.363 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//*[@id='user-menu']//*[@class='dropdown-toggle']"}
+Command duration or timeout: 60.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: RemoteWebDriver
+Session ID: b090a693-6a22-438d-a456-b203d4255cf5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:188)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:145)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:472)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:242)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:327)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:343)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:234)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:59)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:34)
+	at com.sun.proxy.$Proxy6.getText(Unknown Source)
+	at com.wwt.sda.HomePage.verifyDisplyUserName(HomePage.java:100)
+	at com.wwt.sda.TestNG_Login.SDA_Login_03(TestNG_Login.java:78)
+Caused by: org.openqa.selenium.remote.ErrorHandler$UnknownServerException: Unable to locate element: {"method":"xpath","selector":"//*[@id='user-menu']//*[@class='dropdown-toggle']"}
+Build info: version: '2.24.1', revision: '17205', time: '2012-06-19 15:28:49'
+System info: os.name: 'Windows 7', os.arch: 'x86', os.version: '6.1', java.version: '1.7.0_25'
+Driver info: driver.version: unknown
+	at <anonymous class>.<anonymous method>(file:///C:/Users/ramidib/AppData/Local/Temp/anonymous7613563956379236343webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:6556)
+	at <anonymous class>.<anonymous method>(file:///C:/Users/ramidib/AppData/Local/Temp/anonymous7613563956379236343webdriver-profile/extensions/fxdriver@googlecode.com/components/driver_component.js:471)
+
