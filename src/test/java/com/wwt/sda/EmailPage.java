@@ -44,9 +44,9 @@ public class EmailPage {
 	//	For Outlook Interaction 
 	public void LoginOutlook() throws InterruptedException{
 		System.out.println("Logging to the Webmail account");
-		driver.navigate().to("https://webmail.wwt.com/");
-		driver.findElement(By.id("username")).sendKeys("ramidib");
-		driver.findElement(By.id("password")).sendKeys("Hello123");
+		driver.navigate().to("www.xyz.com");
+		driver.findElement(By.id("username")).sendKeys("abcdef");
+		driver.findElement(By.id("password")).sendKeys("zyxwvu");
 		driver.findElement(By.className("btn")).click();
 		Thread.sleep(10000);
 	}
